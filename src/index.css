@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  @apply text-slate-800 overflow-x-hidden;
+  background: linear-gradient(135deg, #fff3f3 0%, #f7e2e8 50%, #eee0ec 100%);
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #3d2b33;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fff3f3;
+}
+::-webkit-scrollbar-thumb {
+  background: #e99a9a;
+  border-radius: 9999px;
+}
+
+/* Floating Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.02);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+
