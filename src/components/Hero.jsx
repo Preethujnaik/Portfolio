@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen relative flex flex-col md:flex-row items-center justify-center gap-16 px-6 overflow-hidden py-20"
+      className="min-h-screen relative flex flex-col md:flex-row items-center justify-center gap-16 px-6 py-20"
     >
       {/* Decorative Glow Blobs */}
       <div className="absolute top-1/4 left-10 md:left-1/4 w-72 h-72 bg-[#ffd3d3]/30 rounded-full blur-[100px] animate-float -z-10"></div>

@@ -80,10 +80,10 @@ const Certificates = () => {
         >
           <div className="relative max-w-3xl w-full bg-white border border-pink-100 rounded-[2rem] p-3 shadow-2xl">
             <button
-              className="absolute -top-12 right-0 text-white hover:text-[#e99a9a] text-lg font-semibold focus:outline-none transition"
+              className="absolute top-4 right-4 bg-white/80 backdrop-blur-sm text-[#4a3740] hover:text-[#e99a9a] w-10 h-10 rounded-full flex items-center justify-center shadow-md focus:outline-none transition z-10 font-bold"
               onClick={closeModal}
             >
-              Close ✕
+              ✕
             </button>
 
             <div className="overflow-hidden rounded-[1.5rem]">

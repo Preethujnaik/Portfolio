@@ -92,21 +92,21 @@ const Contact = () => {
                   type="text"
                   name="from_name"
                   placeholder="Your Name"
-                  className="w-full p-4 rounded-xl bg-white/50 border border-pink-100 focus:border-[#e99a9a] focus:ring-1 focus:ring-[#e99a9a] focus:outline-none text-[#4a3740] placeholder-slate-400 transition"
+                  className="w-full p-4 text-base rounded-xl bg-white/50 border border-pink-100 focus:border-[#e99a9a] focus:ring-1 focus:ring-[#e99a9a] focus:outline-none text-[#4a3740] placeholder-slate-400 transition"
                   required
                 />
                 <input
                   type="email"
                   name="from_email"
                   placeholder="Your Email"
-                  className="w-full p-4 rounded-xl bg-white/50 border border-pink-100 focus:border-[#e99a9a] focus:ring-1 focus:ring-[#e99a9a] focus:outline-none text-[#4a3740] placeholder-slate-400 transition"
+                  className="w-full p-4 text-base rounded-xl bg-white/50 border border-pink-100 focus:border-[#e99a9a] focus:ring-1 focus:ring-[#e99a9a] focus:outline-none text-[#4a3740] placeholder-slate-400 transition"
                   required
                 />
               </div>
               <textarea
                 name="message"
                 placeholder="Your Message"
-                className="w-full p-4 rounded-xl bg-white/50 border border-pink-100 focus:border-[#e99a9a] focus:ring-1 focus:ring-[#e99a9a] focus:outline-none text-[#4a3740] placeholder-slate-400 transition"
+                className="w-full p-4 text-base rounded-xl bg-white/50 border border-pink-100 focus:border-[#e99a9a] focus:ring-1 focus:ring-[#e99a9a] focus:outline-none text-[#4a3740] placeholder-slate-400 transition"
                 rows="5"
                 required
               ></textarea>

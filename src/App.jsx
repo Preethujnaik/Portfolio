@@ -13,17 +13,19 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <main className="pt-16">
+    <div className="overflow-x-hidden w-full relative">
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Education />
-      <Certificates />
-      <Contact />
-    </main>
+      <main className="pt-16">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Education />
+        <Certificates />
+        <Contact />
+      </main>
+    </div>
   );
 }
 
